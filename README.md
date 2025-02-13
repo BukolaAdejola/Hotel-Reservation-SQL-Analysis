@@ -36,6 +36,23 @@
 
 <img width="808" alt="Hotel Reservation ScreenShot" src="https://github.com/user-attachments/assets/7fd1e59d-2e11-4c1a-a694-044c25b429eb" />
 
+## Project-Objective
+-	What is the total number of reservations in the dataset?
+-	Which meal plan is the most popular among guests?
+-	What is the average price per room for reservations involving children? 
+-	How many reservations were made for the year 20XX (replace XX with the desired year)? 
+-  What is the most commonly booked room type? 
+-  How many reservations fall on a weekend (no_of_weekend_nights > 0)?
+- What is the highest and lowest lead time for reservations?
+-	What is the most common market segment type for reservations?
+-	How many reservations have a booking status of "Confirmed"?
+-	What is the total number of adults and children across all reservations? 
+-	What is the average number of weekend nights for reservations involving children?
+-	 How many reservations were made in each month of the year? 
+- What is the average number of nights (both weekend and weekday) spent by guests for each room type?
+-	For reservations involving children, what is the most common room type, and what is the average price for that room type? 
+- Find the market segment type that generates the highest average price per room.
+
 ## Data Cleaning
 - Rename Table name and two other columns
 ```sql
@@ -61,7 +78,7 @@ add column month text;
 update hotel_reserv_data
 set month = monthname(arrival_date);
 ```
-## Data Exploration and Insights
+## Data-Exploration-and-Insights
 •	What is the total number of reservations in the dataset?
 Insights: The total number of reservations in this dataset is 700.
 
