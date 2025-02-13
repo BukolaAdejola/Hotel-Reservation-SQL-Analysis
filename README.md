@@ -61,7 +61,7 @@ add column month text;
 update hotel_reserv_data
 set month = monthname(arrival_date);
 ```
-## Data Exploration
+## Data Exploration and Insights
 •	What is the total number of reservations in the dataset?
 Insights: The total number of reservations in this dataset is 700.
 
